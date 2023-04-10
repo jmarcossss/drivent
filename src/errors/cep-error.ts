@@ -1,5 +1,5 @@
 import { ApplicationError } from '@/protocols';
 
 export function invalidCepError(): ApplicationError {
-  return { name: 'InvalidCepError', message: 'Your cep must be 8 numbers long!' };
+  return { name: 'Erro de CEP', message: '8 dígitos necessários.' };
 }
